@@ -20,22 +20,7 @@ import com.google.zxing.qrcode.QRCodeWriter;
 public class SimpleQrcodeGenerator {
 	
 	public static void main(String[] args) {
-        //var data = "Je suis Samson et je fais des QR Code en Java.";
-        
-        // Envoi de SMS
-        //var data = "sms:+33642279765:Bonjour Samson, Pourquoi ce QR Code t'envoie ce message dès que je le scanne ?...";
-		
-		 // Envoi de iMessage
-        //var data = "iMessage:+33642279765";
-        
-     // Message debut
-        //var data = "Petit Tutoriel sur la réalisation des QR Code Par Samson (en Python ou en meme Java)";
-
-     // Message fin
-        var data = "Merci d'avoir suivi ce tutoriel sur la réalisation des QR Code Par Samson (en Python ou en meme Java). A bientôt pour de nouveaux tutoriels.... ";
-        
-        // Envoi d'email
-        //var data = "mail:jean.dupond@google.com?subject=Coucou&body=Bonjour...";
+       	var data = "Petit Tutoriel sur la réalisation des QR Code Par Samson (en Python ou en meme Java)";
 
         // encode &  write in a file
         try {
